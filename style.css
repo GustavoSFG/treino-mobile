@@ -1,0 +1,18 @@
+@import url("style/header.css");
+@import url("style/banner.css");
+
+:root{
+    --cor-de-fundo:#000000;
+    --branco:#ffffff;
+    --laranja: #000000;
+    --preto:#030303;
+    --azul-degrade: #0b285f;
+    --fonte-principal:"Poppins";
+    --fonte-secundaria:"Josefin Sans";
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
